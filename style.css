@@ -2,7 +2,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
-    background-color: #ADD8E6; /* Light Blue */
+    background-color: hsl(323, 33%, 83%); /* Light Blue */
     color: #333;
     line-height: 1.6;
 }
@@ -20,8 +20,8 @@ h1, h2, h3 {
 
 /* Estilos do cabeçalho */
 header {
-    background-color: #003366; /* Deep Blue */
-    color: #fff;
+    background-color: #490066; /* Deep Blue */
+    color: #ebb4d2;
     padding: 1rem 0;
     text-align: center;
 }
@@ -52,7 +52,7 @@ section {
 
 .hero-text h2 {
     font-size: 2.5rem;
-    color: #003366; /* Deep Blue */
+    color: #410066; /* Deep Blue */
 }
 
 .hero-image {
@@ -70,7 +70,7 @@ section {
 /* Seção Portfólio */
 #portfolio h2, #tech-stack h2 {
     text-align: center;
-    color: #003366; /* Deep Blue */
+    color: #520066; /* Deep Blue */
     margin-bottom: 2rem;
 }
 
@@ -80,7 +80,7 @@ section {
 }
 
 .filter-btn {
-    background-color: #003366;
+    background-color: #060707;
     color: #fff;
     border: none;
     padding: 0.5rem 1rem;
@@ -91,7 +91,7 @@ section {
 }
 
 .filter-btn:hover, .filter-btn.active {
-    background-color: #FFA500; /* Bright Orange */
+    background-color: #e5a0dc; /* Bright Orange */
 }
 
 .projects-grid {
@@ -131,7 +131,7 @@ section {
 
 .project-card h3 {
     margin-top: 0;
-    color: #003366;
+    color: #5e0066;
 }
 
 .project-tags {
@@ -174,7 +174,7 @@ section {
 footer {
     text-align: center;
     padding: 1.5rem 0;
-    background-color: #003366; /* Deep Blue */
+    background-color: #550066; /* Deep Blue */
     color: #eee;
     margin-top: 2rem;
 }
