@@ -5,36 +5,9 @@
 document.addEventListener('DOMContentLoaded', () => {
 
     // Array de objetos que contém as informações de cada projeto do portfólio.
-    const projects = [
-        {
-            title: 'Site de E-commerce',
-            description: 'Uma plataforma de e-commerce moderna construída com foco em HTML e CSS.',
-            image: 'https://placehold.co/600x400.png',
-            tags: ['HTML', 'CSS'],
-            dataAiHint: 'online store'
-        },
-        {
-            title: 'Dashboard de Dados',
-            description: 'Um painel dinâmico para visualização de dados, com filtros criados com JavaScript.',
-            image: 'https://placehold.co/600x400.png',
-            tags: ['HTML', 'JavaScript'],
-            dataAiHint: 'analytics chart'
-        },
-        {
-            title: 'Jogo de Quiz Interativo',
-            description: 'Um aplicativo de jogo de quiz envolvente que usa JavaScript para a lógica.',
-            image: 'https://placehold.co/600x400.png',
-            tags: ['JavaScript', 'CSS'],
-            dataAiHint: 'quiz game'
-        },
-        {
-            title: 'Portfólio Pessoal',
-            description: 'Uma página única e elegante para mostrar projetos, focada em CSS avançado.',
-            image: 'https://placehold.co/600x400.png',
-            tags: ['HTML', 'CSS'],
-            dataAiHint: 'personal website'
-        }
-    ];
+    
+    
+           
 
     // Seleciona o contêiner no HTML onde os cards dos projetos serão inseridos.
     const projectsGrid = document.querySelector('.projects-grid');
@@ -121,3 +94,4 @@ document.addEventListener('DOMContentLoaded', () => {
     filterProjects('all');
 
 });
+
